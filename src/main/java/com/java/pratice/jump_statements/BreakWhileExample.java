@@ -1,3 +1,5 @@
+package com.java.pratice.jump_statements;
+
 public class BreakWhileExample {
     public static void main(String[] args) {
         //while loop

@@ -1,3 +1,5 @@
+package com.java.pratice.decision_making;
+
 public class SwitchExample3 {
     public static void main(String[] args) {
         //Declaring a variable for switch expression

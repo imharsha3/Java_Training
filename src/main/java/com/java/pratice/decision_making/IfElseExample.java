@@ -1,3 +1,5 @@
+package com.java.pratice.decision_making;
+
 public class IfElseExample {
     public static void main(String[] args) {
         boolean a = false;

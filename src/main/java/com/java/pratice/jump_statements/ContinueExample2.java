@@ -1,3 +1,5 @@
+package com.java.pratice.jump_statements;
+
 public class ContinueExample2 {
     public static void main(String[] args) {
         //outer loop

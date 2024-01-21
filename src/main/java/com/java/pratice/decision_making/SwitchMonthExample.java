@@ -1,4 +1,4 @@
-package org.example;
+package com.java.pratice.decision_making;
 
 public class SwitchMonthExample {
     public static void main(String[] args) {

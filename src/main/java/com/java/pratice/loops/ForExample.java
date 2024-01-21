@@ -1,4 +1,4 @@
-package org.example;
+package com.java.pratice.loops;
 
 public class ForExample {
     public static void main(String[] args) {

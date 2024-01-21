@@ -1,3 +1,5 @@
+package com.java.pratice.loops;
+
 public class ForEachExample {
     public static void main(String[] args) {
         //Declaring an array

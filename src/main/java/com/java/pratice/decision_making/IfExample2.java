@@ -1,3 +1,5 @@
+package com.java.pratice.decision_making;
+
 public class IfExample2 {
     public static void main(String args[])
     {

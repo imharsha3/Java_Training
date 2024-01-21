@@ -1,3 +1,5 @@
+package com.java.pratice.jump_statements;
+
 public class BreakDoWhileExample {
     public static void main(String[] args) {
         //declaring variable

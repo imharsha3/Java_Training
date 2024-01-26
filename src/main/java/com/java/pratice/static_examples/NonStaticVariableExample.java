@@ -1,4 +1,4 @@
-package com.java.pratice;
+package com.java.pratice.static_examples;
 
 public class NonStaticVariableExample {
     int count=0;//will get memory each time when the instance is created

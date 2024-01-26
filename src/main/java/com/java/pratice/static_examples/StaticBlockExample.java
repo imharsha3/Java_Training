@@ -1,4 +1,4 @@
-package com.java.pratice;
+package com.java.pratice.static_examples;
 
 public class StaticBlockExample {
     // static variable

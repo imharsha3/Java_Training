@@ -4,7 +4,7 @@ public class SwitchExample2 {
     public static void main(String[] args)
     {
         // Custom input string
-        String Branch = "CSE";
+        String Branch = "ECE";
         int year = 2;
 
         // Switch case

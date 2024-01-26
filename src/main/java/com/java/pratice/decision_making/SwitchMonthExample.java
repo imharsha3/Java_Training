@@ -3,7 +3,7 @@ package com.java.pratice.decision_making;
 public class SwitchMonthExample {
     public static void main(String[] args) {
         //Specifying month number
-        int month=7;
+        int month=9;
         String monthString="";
         //Switch statement
         switch(month){

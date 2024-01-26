@@ -3,7 +3,7 @@ package com.java.pratice.decision_making;
 public class SwitchExample {
     public static void main(String[] args)
     {
-        int day = 3;
+        int day = 10;
         String dayString;
 
         // Switch statement with int data type

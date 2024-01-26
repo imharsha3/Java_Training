@@ -8,5 +8,8 @@ public class ForEachExample {
         for(int i:arr){
             System.out.println(i);
         }
+//        for(int i=0;i< arr.length-1;++i){
+//            System.out.println(arr[i]);
+//        }
     }
 }

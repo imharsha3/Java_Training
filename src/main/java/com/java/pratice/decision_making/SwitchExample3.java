@@ -3,13 +3,14 @@ package com.java.pratice.decision_making;
 public class SwitchExample3 {
     public static void main(String[] args) {
         //Declaring a variable for switch expression
-        int number = 20;
+        int number = 40;
         //Switch expression
         switch (number) {
             //Case statements
             case 10:
                 System.out.println("10");
                 break;
+
             case 20:
                 System.out.println("20");
                 break;
@@ -17,8 +18,7 @@ public class SwitchExample3 {
                 System.out.println("30");
                 break;
             //Default case statement
-            default:
-                System.out.println("Not in 10, 20 or 30");
+
         }
     }
 }

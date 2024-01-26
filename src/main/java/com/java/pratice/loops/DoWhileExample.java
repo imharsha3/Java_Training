@@ -7,5 +7,6 @@ public class DoWhileExample {
             System.out.println(i);
             i++;
         }while(i<=10);
+
     }
 }

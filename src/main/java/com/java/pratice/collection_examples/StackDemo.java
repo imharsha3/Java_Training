@@ -23,6 +23,7 @@ public class StackDemo {
         System.out.println();
 
         stack.pop();
+        stack.pop();
 
         // Iterator for the stack
         itr = stack.iterator();

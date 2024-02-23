@@ -18,6 +18,7 @@ public class PriorityQueueDemo {
         // Printing the top element of PriorityQueue
         System.out.println(pQueue.peek());
 
+        System.out.print(pQueue);
         // Printing the top element and removing it
         // from the PriorityQueue container
         System.out.println(pQueue.poll());

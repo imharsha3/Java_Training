@@ -30,6 +30,7 @@ public class ArrayDequeDemo {
         // elements at the tail
         de_que.addLast(24);
         de_que.addLast(14);
+        de_que.addFirst(100);
 
         System.out.println(de_que);
     }

@@ -15,6 +15,7 @@ public class TreeSetDemo {
         ts.add("Very");
         ts.add("Very");
         ts.add("Helpful");
+        ts.add("ABC");
 
         // Traversing elements
         Iterator<String> itr = ts.iterator();

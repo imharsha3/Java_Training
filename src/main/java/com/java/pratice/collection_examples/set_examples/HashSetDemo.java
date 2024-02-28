@@ -2,13 +2,14 @@ package com.java.pratice.collection_examples.set_examples;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
 public class HashSetDemo {
     public static void main(String[] args)
     {
 
         // Creating an empty HashSet
-        HashSet<String> h = new HashSet<String>();
+        Set<String> h = new HashSet<String>();
 
         // Adding elements into HashSet
         // using add() method

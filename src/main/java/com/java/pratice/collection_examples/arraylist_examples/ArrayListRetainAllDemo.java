@@ -28,6 +28,7 @@ public class ArrayListRetainAllDemo {
 
         // Apply retainAll() method to boxes passing bags as parameter
         boxes.retainAll(bags);
+        bags.retainAll(boxes);
 
         // Displaying both the lists after operation
         System.out.println("\nAfter Applying retainAll()"+

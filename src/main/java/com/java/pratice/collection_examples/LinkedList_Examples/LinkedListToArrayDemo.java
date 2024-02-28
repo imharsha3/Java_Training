@@ -13,7 +13,7 @@ public class LinkedListToArrayDemo {
 
         // Add numbers to end of LinkedList
         list.add(23223223);
-        list.add(98098090);
+        list.add(28098090);
         list.add(31516512);
         list.add(56465456);
 

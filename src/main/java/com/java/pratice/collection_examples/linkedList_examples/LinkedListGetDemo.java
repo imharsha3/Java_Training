@@ -1,4 +1,4 @@
-package com.java.pratice.collection_examples.LinkedList_Examples;
+package com.java.pratice.collection_examples.linkedList_examples;
 
 import java.util.LinkedList;
 

@@ -22,6 +22,7 @@ public class AddElementsToHashMap {
 
         System.out.println("Mappings of HashMap hm1 are : "
                 + hm1);
+        hm2.put(4,"four");
 
         System.out.println("Mapping of HashMap hm2 are : "
                 + hm2);

@@ -10,6 +10,8 @@ public class NavigableMapDemo {
       map.put(102,"AWS");
       map.put(101,"Phyton");
       map.put(103,"C++");
+
+      System.out.println("Ascending Map"+map);
     //Maintains descending order
       System.out.println("descendingMap: "+map.descendingMap());
     //Returns key-value pairs whose keys are less than or equal to the specified key.

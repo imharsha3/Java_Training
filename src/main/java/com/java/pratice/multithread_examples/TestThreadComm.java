@@ -24,11 +24,12 @@ class Customer{
     }
 }
 public class TestThreadComm {
-    public static void main(String args[]){
+    public static void main(String args[]) throws InterruptedException {
         final Customer c=new Customer();
         new Thread(){
             public void run(){c.withdraw(15000);}
         }.start();
+        Thread.sleep(3000);
         new Thread(){
             public void run(){c.deposit(10000);}
         }.start();

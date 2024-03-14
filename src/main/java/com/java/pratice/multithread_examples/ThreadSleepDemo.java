@@ -12,7 +12,7 @@ public class ThreadSleepDemo extends Thread{
 
                 // it will sleep the main thread for 1 sec
                 // ,each time the for loop runs
-                Thread.sleep(1000);
+                Thread.sleep(3000);
 
                 // This Thread.sleep() method will sleep the
                 // thread 0.
@@ -29,6 +29,7 @@ public class ThreadSleepDemo extends Thread{
     public static void main(String[] args) throws InterruptedException {
         // main thread
         ThreadSleepDemo threadSleepDemo = new ThreadSleepDemo();
+        threadSleepDemo.start();
         threadSleepDemo.start();
 
         Thread.sleep(500);

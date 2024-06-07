@@ -21,7 +21,7 @@ public class PushAndPopDemo {
 
         // Printing the popped element.
         System.out.println(s);
-
+        System.out.println(stack);
         // Pushing an element in the stack
         stack.push("Powerful");
         System.out.println(stack);

@@ -15,8 +15,10 @@ public class TreeSetDemo2 {
         System.out.println("Reverse Set: "+set.descendingSet());
 
         System.out.println("Head Set: "+set.headSet("C", true));
+        System.out.println("Head Set with out inclusive: "+set.headSet("C"));
 
         System.out.println("SubSet: "+set.subSet("A", false, "E", true));
+        System.out.println("SubSet2: "+set.subSet("A", true, "E", false));
 
         System.out.println("TailSet: "+set.tailSet("C", false));
 

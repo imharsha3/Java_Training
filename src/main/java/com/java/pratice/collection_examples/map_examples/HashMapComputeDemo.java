@@ -16,10 +16,8 @@ public class HashMapComputeDemo {
         System.out.println("Map: " + map);
 
         // remap the values using compute() method
-        map.compute("Name", (key, val)
-                -> val.concat(" AWS"));
-        map.compute("Address", (key, val)
-                -> val.concat(" United-States"));
+        map.compute("Name", (key, val) -> val.concat(" AWS"));
+        map.compute("Address", (key, val) -> val.concat(" United-States"));
 
         // print new mapping
         System.out.println("New Map: " + map);

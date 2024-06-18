@@ -10,6 +10,7 @@ public class HashMapPutDemo {
       hm.put(100,"Amit");
       hm.put(101,"Vijay");
       hm.put(102,"Rahul");
+      hm.putIfAbsent(103, "Harsha");
 
       System.out.println("After invoking put() method ");
       for(Map.Entry m:hm.entrySet()){
@@ -17,7 +18,7 @@ public class HashMapPutDemo {
     }
 
       hm.putIfAbsent(103, "Gaurav");
-      System.out.println("After invoking putIfAbsent() method ");
+        System.out.println("After invoking putIfAbsent() method ");
       for(Map.Entry m:hm.entrySet()){
         System.out.println(m.getKey()+" "+m.getValue());
     }

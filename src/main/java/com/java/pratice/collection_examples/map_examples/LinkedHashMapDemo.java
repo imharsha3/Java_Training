@@ -15,7 +15,10 @@ public class LinkedHashMapDemo {
         map.put("dhoni", 10);
         map.put("sachin", 30);
         map.put("virat", 20);
+        map.put("Abc", 40);
 
+        System.out.println("Linked HashMap:" +map);
+        map.remove("Abc");
         // Iterating over Map
         for (Map.Entry<String, Integer> e : map.entrySet())
 

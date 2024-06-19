@@ -14,6 +14,7 @@ public class TreeMapDemo {
         tree_map.put(10, "Java");
         tree_map.put(25, "Welcomes");
         tree_map.put(30, "You");
+        tree_map.put(5,"Hi.");
 
         // Printing the elements of TreeMap
         System.out.println("TreeMap: " + tree_map);

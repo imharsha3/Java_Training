@@ -2,24 +2,24 @@ package com.java.pratice.collection_examples;
 
 import java.util.EnumMap;
 
-enum Days {
+enum Day {
     MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
 }
 
 public class EnumMapExample {
     public static void main(String[] args) {
-        EnumMap<Days, String> schedule = new EnumMap<>(Days.class);
+        EnumMap<Day, String> schedule = new EnumMap<>(Day.class);
 
         // Adding elements to the EnumMap
-        schedule.put(Days.MONDAY, "Work");
-        schedule.put(Days.TUESDAY, "Work");
-        schedule.put(Days.WEDNESDAY, "Study");
-        schedule.put(Days.THURSDAY, "Study");
-        schedule.put(Days.FRIDAY, "Relax");
+        schedule.put(Day.MONDAY, "Work");
+        schedule.put(Day.TUESDAY, "Work");
+        schedule.put(Day.WEDNESDAY, "Study");
+        schedule.put(Day.THURSDAY, "Study");
+        schedule.put(Day.FRIDAY, "Relax");
 
         // Getting elements from the EnumMap
-        System.out.println(schedule.get(Days.MONDAY)); // Output: Work
-        System.out.println(schedule.get(Days.FRIDAY)); // Output: Relax
+        System.out.println(schedule.get(Day.MONDAY)); // Output: Work
+        System.out.println(schedule.get(Day.FRIDAY)); // Output: Relax
     }
 }
 

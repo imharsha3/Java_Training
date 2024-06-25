@@ -4,23 +4,23 @@ import java.util.EnumSet;
 import java.util.Iterator;
 import java.util.Set;
 
-enum days {
+enum Days {
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
 }
 public class EnumSetExample {
     public static void main(String[] args) {
-        Set<days> set = EnumSet.of(days.TUESDAY, days.WEDNESDAY);
+        Set<Days> set = EnumSet.of(Days.TUESDAY, Days.WEDNESDAY);
 
         // Creating EnumSet using allOf()
-        EnumSet<days> day = EnumSet.allOf(days.class);
+        EnumSet<Days> day = EnumSet.allOf(Days.class);
 
         // Using remove()
-        boolean value1 = day.remove(days.MONDAY);
+        boolean value1 = day.remove(Days.MONDAY);
         // Printing elements to the console
         System.out.println("Is CRICKET removed? " + value1);
 
         // Traversing elements
-        Iterator<days> iter = set.iterator();
+        Iterator<Days> iter = day.iterator();
         while (iter.hasNext())
             System.out.println(iter.next());
     }

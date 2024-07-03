@@ -18,6 +18,8 @@ public class StreamExample2 {
                 .map(x -> x * x)
                 .collect(Collectors.toList());
 
+        System.out.println("Square of the list"+ square);
+
         // create a list of String
         List<String> names = Arrays.asList(
                 "Reflection", "Collection", "Stream");

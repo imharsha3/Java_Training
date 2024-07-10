@@ -11,7 +11,8 @@ public class ForEachExample {
         gamesList.add("Chess");
         gamesList.add("Hocky");
         System.out.println("------------Iterating by passing lambda expression--------------");
-        gamesList.forEach(games -> System.out.println(games));
-
+        gamesList.forEach(games1 -> System.out.println(games1));
+        System.out.println("------------Iterating by passing method reference--------------");
+        gamesList.forEach(System.out::println);
     }
 }

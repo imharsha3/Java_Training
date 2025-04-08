@@ -4,7 +4,7 @@ class Employee {
     float salary=45000;
 }
 
-public class Programmer extends Employee{
+public class Programmer extends Employee {
     int bonus=10000;
     public static void main(String args[]){
         Programmer programmer =new Programmer();

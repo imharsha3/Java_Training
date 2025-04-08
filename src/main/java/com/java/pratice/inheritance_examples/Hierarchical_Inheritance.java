@@ -14,6 +14,9 @@ class Hierarchical_Inheritance {
         Audi audi = new Audi();
         audi.make();
         audi.type();
+        BMW bmw = new BMW();
+        bmw.model();
+        bmw.type();
 
     }
 }
